@@ -27,33 +27,28 @@ export const LINKS = [
 export const DISHES = [
   {
     image: dish1,
-    title: "Smoked Salmon Breakfast Casserole",
-    description:
-      "Rye bagels, hot-smoked salmon, and cream cheese combine for a stick-to-your-ribs egg bake.",
+    title: "Smoked Salmon",
+    description: "For a stick-to-your-ribs egg bake.",
   },
   {
     image: dish2,
     title: "Flat Croissant with Nutella and Berries",
-    description:
-      "This flat croissant with Nutella and berries is as delicious as a tart.",
+    description: "As delicious as a tart.",
   },
   {
     image: dish3,
     title: "Shakshuka for One",
-    description:
-      "This shakshuka for one is for those days when you need a break from breakfast cereal.",
+    description: "When you need a break from cereal.",
   },
   {
     image: dish4,
-    title: "Juicy Roasted Chicken",
-    description:
-      "This roasted chicken is perfectly seasoned and just like the way my grandmother used to make it. ",
+    title: "Grilled Steak",
+    description: "Ideal for sharing with friends and family.",
   },
   {
     image: dish5,
     title: "Baked Teriyaki Chicken",
-    description:
-      "This teriyaki chicken recipe uses a homemade teriyaki sauce to glaze chicken thighs that are baked in the oven for the most delicious sticky chicken.",
+    description: "The most delicious sticky chicken.",
   },
   {
     image: dish6,
@@ -63,26 +58,22 @@ export const DISHES = [
   {
     image: dish7,
     title: "Hawaiian Ham and Cheese Sliders",
-    description:
-      "Hawaiian sliders are great for potlucks for something fun and easy to share.",
+    description: "Great for potlucks for something fun.",
   },
   {
     image: dish8,
     title: "Seared Chuck Eye Steak",
-    description:
-      "This chuck steak cuts like a ribeye. Seared in a hot skillet, then rested while you prepare a quick and easy pan sauce, this steak is tender and delicious.",
+    description: "This chuck steak cuts like a ribeye.",
   },
   {
     image: dish9,
     title: "Fajita Marinade",
-    description:
-      "This fajita marinade with lime juice and olive oil is spiced up with cayenne pepper. It adds so much flavor to the meat for delicious fajitas.",
+    description: "Adds so much flavor to the meat.",
   },
   {
     image: dish10,
     title: "Grilled Balsamic Beef",
-    description:
-      "This grilled balsamic beef would be one of my signature dishes if I were a chef at a barbecue restaurant.",
+    description: "One of our signature dishes.",
   },
 ];
 
