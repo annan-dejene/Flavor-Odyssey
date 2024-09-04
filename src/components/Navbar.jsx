@@ -58,6 +58,7 @@ const Navbar = () => {
               href={`#${link.targetId}`}
               key={link.targetId}
               className="block p-4 uppercase tracking-tighter hover:opacity-50"
+              onClick={(event) => handleScroll(event, link.targetId)}
             >
               {link.text}
             </a>
