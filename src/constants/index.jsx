@@ -80,7 +80,7 @@ export const DISHES = [
 export const ABOUT = {
   header: "Our Culinary Journey!",
   content:
-    "Discover a world of flavors at Flavor Odyssey, where innovation meets tradition. Our award-winning chef brings together diverse culinary influences to create unforgettable dishes. From bold spices to delicate harmonies, every bite is a symphony of taste. Experience the fusion of cultures in a casual and inviting atmosphere.",
+    "Embark on a gastronomic journey where the boundaries of traditional cuisine are shattered. Our award-winning chef, renowned for his innovative approach to cooking, expertly blends diverse culinary influences to create truly unforgettable dishes. From the fiery spices of the East to the delicate flavors of the Mediterranean, every bite is a symphony of taste that will tantalize your senses.",
 };
 
 export const MISSION =
