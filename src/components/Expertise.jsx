@@ -2,7 +2,7 @@ import { CUSINES } from "../constants";
 
 const Expertise = () => {
   return (
-    <section id="expertise" className="container mx-auto pb-8">
+    <section id="expertise" className="container mx-auto pb-16">
       <h2 className="mb-8 text-center text-3xl lg:text-4xl">Our Expertise</h2>
 
       <div className="flex flex-col gap-8">
