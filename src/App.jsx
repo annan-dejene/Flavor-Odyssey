@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Dishes from "./components/Dishes";
 import About from "./components/About";
 import Mission from "./components/Mission";
+import Expertise from "./components/Expertise";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Dishes />
       <About />
       <Mission />
+      <Expertise />
     </main>
   );
 }
