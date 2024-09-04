@@ -9,7 +9,7 @@ const Dish = ({ dish }) => {
       />
       <div className="p-2 text-center sm:text-left">
         <h3 className="mb-2 text-lg tracking-tighter">{dish.title}</h3>
-        <p className="truncate text-sm text-slate-400">{dish.description}</p>
+        <p className="text-sm text-slate-400">{dish.description}</p>
       </div>
     </div>
   );
