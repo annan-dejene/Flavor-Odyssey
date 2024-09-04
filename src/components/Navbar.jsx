@@ -15,15 +15,15 @@ const Navbar = () => {
     const targetEl = document.getElementById(targetId);
 
     if (targetEl) {
-      const offsetTop = targetEl.offsetTop - 50;
-      targetEl.scrollTo({ top: offsetTop, behavior: "smooth" });
+      const offsetTop = targetEl.offsetTop - 80;
+      window.scrollTo({ top: offsetTop, behavior: "smooth" });
     }
 
     setIsMobileMenuOpen(false);
   };
 
   return (
-    <nav className="fixed top-4 z-50 flex w-full flex-col items-center justify-center">
+    <nav className="fixed top-0 z-50 flex w-full flex-col items-center justify-center">
       <div className="flex w-full items-center justify-between overflow-y-hidden px-10 py-6 backdrop-blur-lg lg:mt-2 lg:w-[50rem] lg:rounded-full lg:shadow-lg">
         <a href="#" onClick={(event) => handleScroll(event, "#")}>
           <img src={logo} width={80} height={80} alt="logo" />
