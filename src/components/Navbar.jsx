@@ -17,6 +17,8 @@ const Navbar = () => {
     if (targetEl) {
       const offsetTop = targetEl.offsetTop - 80;
       window.scrollTo({ top: offsetTop, behavior: "smooth" });
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
     setIsMobileMenuOpen(false);
