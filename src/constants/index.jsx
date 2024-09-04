@@ -111,7 +111,7 @@ export const CUSINES = [
 ];
 
 export const REVIEW = {
-  name: "Xaviour Fernando",
+  name: "Andrea Juan",
   profession: "Food Critic",
   content:
     "“Flavor Odyssey is a culinary masterpiece that defies expectations. With a menu that seamlessly blends flavors from around the globe, every dish is a delightful surprise. Thier meals are a symphony of textures and tastes, a testament to the chef's artistry. The ambiance is warm and inviting, making it the perfect setting for a memorable dining experience.”",
