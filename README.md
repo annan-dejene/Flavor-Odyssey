@@ -23,7 +23,7 @@ Check out the live demo of the application [here](https://falvor-odyssey.netlify
 
 - React.js: A JavaScript library for building user interfaces.
 - Tailwind CSS: A utility-first CSS framework for styling.
-- React Icons: For social media icons.
+- Framer Motion: For animations.
 
 ### Installation
 
