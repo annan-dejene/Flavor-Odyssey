@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a758c377-d048-42e1-b338-f41e5b64fcec/deploy-status)](https://app.netlify.com/sites/falvor-odyssey/deploys)
+
 # Flavor Odyssey
 
 ![Sample-Screenshot](./public/Sample.png)
@@ -6,7 +8,7 @@ Flavor Odyssey is a web application for a restaurant, built using React.js and T
 
 ## Live Demo
 
-Check out the live demo of the application [here](https://magic-meal.netlify.app/).
+Check out the live demo of the application [here](https://falvor-odyssey.netlify.app/).
 
 ## Features
 
