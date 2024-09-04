@@ -3,10 +3,7 @@ import { ABOUT } from "../constants";
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="container mx-auto max-h-screen overflow-y-hidden py-16"
-    >
+    <section id="about" className="container mx-auto py-16">
       <h2 className="mb-16 text-center text-3xl lg:text-4xl">About Us</h2>
 
       <div className="flex flex-wrap">
@@ -18,9 +15,9 @@ const About = () => {
           />
         </div>
 
-        <div className="w-full px-2 text-center lg:w-1/2 lg:text-left">
+        <div className="w-full px-2 lg:w-1/2">
           <h3 className="text-4xl md:text-5xl">{ABOUT.header}</h3>
-          <div className="mt-1 h-1 w-36 -rotate-3 bg-rose-300" />
+          <div className="mt-1 h-1 w-36 -rotate-3 bg-rose-300 text-center" />
           <p className="m-8 text-2xl leading-normal tracking-tight text-[#a7a3a3] lg:max-w-[480px] lg:leading-relaxed">
             {ABOUT.content}
           </p>
