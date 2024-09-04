@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="container mx-auto h-screen overflow-y-hidden py-16"
+      className="container mx-auto max-h-screen overflow-y-hidden py-16"
     >
       <h2 className="mb-16 text-center text-3xl lg:text-4xl">About Us</h2>
 
