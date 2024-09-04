@@ -1,13 +1,32 @@
 import { CUSINES } from "../constants";
+import { motion } from "framer-motion";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1, transition: { staggerChildren: 1 } },
+};
+
+const ItemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+};
 
 const Expertise = () => {
   return (
     <section id="expertise" className="container mx-auto pb-16">
       <h2 className="mb-8 text-center text-3xl lg:text-4xl">Our Expertise</h2>
 
-      <div className="flex flex-col gap-8">
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        variants={containerVariants}
+        className="flex flex-col gap-8"
+      >
         {CUSINES.map((cusine) => (
-          <div
+          <motion.div
+            variants={ItemVariants}
+            viewport={{ once: true }}
             key={cusine.number}
             className={
               "flex flex-wrap pb-3 " +
@@ -35,9 +54,9 @@ const Expertise = () => {
               </h3>
               <p className="text-base">{cusine.description}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };
